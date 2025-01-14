@@ -19,5 +19,9 @@
         "--project",
         "API",
     ],
-    "black-formatter.args": ["--line-length=100"],
+    "black-formatter.args": [
+        "--line-length=100"
+    ],
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
 }
